@@ -3,6 +3,10 @@ html, body {
   padding: 0;
 }
 
+div {
+  border: 1px solid black;
+}
+
 /* Header Section */
 
 header {
@@ -46,3 +50,12 @@ nav span {
 a {
   color: black;
 }
+
+/* Content Container Section */
+
+.content {
+
+}
+
+
+/* Footer Section */
