@@ -54,7 +54,30 @@ a {
 /* Content Container Section */
 
 .content {
+  display: flex;
+  position: relative;
+  top: 80px;
+  width: 100%;
+  justify-content: space-between;
+}
 
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+  margin-top: 40px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
 
 
